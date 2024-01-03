@@ -17,35 +17,15 @@ public class BetterCalculator {
         if (sign == '+'){
             System.out.println(equation + " = " + (variable1num + variable2num));
         }
-        if (sign == '-'){
+        else if (sign == '-'){
             System.out.println(equation + " = " + (variable1num - variable2num));
         }
-        if (sign == '/'){
+        else if (sign == '/'){
             System.out.println(equation + " = " + (variable1num / variable2num));
         }
-        if (sign == '*'){
+        else if (sign == '*'){
             System.out.println(equation + " = " + (variable1num * variable2num));
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
