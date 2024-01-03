@@ -14,6 +14,10 @@ public class Calculator {
         System.out.println("Second Number: ");
         int secondNumber = scanner.nextInt();
 
+
+
+
+
         int total = 0;
 
             if (sign.contains("+")){
@@ -31,6 +35,8 @@ public class Calculator {
         }
 
         System.out.println("Your answer is " + total);
+
+
 
 
 
